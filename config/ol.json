@@ -1,21 +1,26 @@
 {
+<<<<<<< HEAD
   "exports": [
     "*"
   ],
+=======
+  "exports": ["*"],
+>>>>>>> origin/master
   "umd": true,
   "jvm": [],
   "compile": {
     "externs": [
       "externs/bingmaps.js",
       "externs/closure-compiler.js",
+      "externs/esrijson.js",
       "externs/geojson.js",
       "externs/oli.js",
       "externs/olx.js",
-      "externs/proj4js.js"
+      "externs/proj4js.js",
+      "externs/tilejson.js",
+      "externs/topojson.js"
     ],
     "define": [
-      "ol.ENABLE_WEBGL=false",
-      "ol.ENABLE_DOM=false",
       "goog.array.ASSUME_NATIVE_FUNCTIONS=true",
       "goog.dom.ASSUME_STANDARDS_MODE=true",
       "goog.json.USE_NATIVE_JSON=true",
@@ -35,6 +40,8 @@
     "compilation_level": "ADVANCED",
     "warning_level": "VERBOSE",
     "use_types_for_optimization": true,
-    "manage_closure_dependencies": true
+    "manage_closure_dependencies": true,
+    "create_source_map": "build/ol.js.map",
+    "source_map_format": "V3"
   }
 }

@@ -19,3 +19,27 @@ var map = new ol.Map({
     zoom: 13
   })
 });
+
+var feedbackPoints = new ol.source.Vector({
+  features: new ol.Collection(),
+});
+map.addLayer(new ol.layer.Vector({ source: feedbackPoints }));
+feedbackPoints.addFeature(feature);
+var modify = new ol.interaction.Modify({
+  features: feedbackPoints.getFeaturesCollection()
+});
+map.addInteraction(modify);
+
+var modify = new ol.interaction.Modify({
+  features: feedbackPoints.getFeaturesCollection()
+});
+map.addInteraction(modify);
+
+var geolocation = new ol.Geolocation({
+  projection: map.getView().getProjection(),
+  tracking: true
+});
+geolocation.once('change:position', function(evt) {
+  feature.getGeometry().setCoordinates(geolocation.getPosition());
+  map.getView().setCenter(geolocation.getPosition());
+});

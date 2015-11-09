@@ -30,12 +30,12 @@
 23 verbose targetResolver reading package data from /Users/Manuel/Documents/g01-block4/node_modules/.bin/browserify/package.json
 24 verbose targetResolver reading package data from /Users/Manuel/Documents/g01-block4/node_modules/.bin/uglifyjs/package.json
 25 verbose targetResolver reading package data from /Users/Manuel/Documents/g01-block4/node_modules/.bin/watchify/package.json
-26 verbose already installed skipping openlayers@^3.10.1 /Users/Manuel/Documents/g01-block4
-27 verbose already installed skipping browserify@^12.0.1 /Users/Manuel/Documents/g01-block4
-28 verbose already installed skipping watchify@^3.6.0 /Users/Manuel/Documents/g01-block4
-29 verbose already installed skipping uglify-js@^2.5.0 /Users/Manuel/Documents/g01-block4
-30 verbose already installed skipping cssify@^0.7.0 /Users/Manuel/Documents/g01-block4
-31 verbose already installed skipping through@^2.3.8 /Users/Manuel/Documents/g01-block4
+26 verbose already installed skipping cssify@^0.7.0 /Users/Manuel/Documents/g01-block4
+27 verbose already installed skipping through@^2.3.8 /Users/Manuel/Documents/g01-block4
+28 verbose already installed skipping openlayers@^3.10.1 /Users/Manuel/Documents/g01-block4
+29 verbose already installed skipping browserify@^12.0.1 /Users/Manuel/Documents/g01-block4
+30 verbose already installed skipping watchify@^3.6.0 /Users/Manuel/Documents/g01-block4
+31 verbose already installed skipping uglify-js@^2.5.0 /Users/Manuel/Documents/g01-block4
 32 silly install resolved []
 33 info build /Users/Manuel/Documents/g01-block4
 34 info linkStuff openlayers-app@1.0.0

@@ -5,8 +5,8 @@ var send = require('./feedback_send');
 
 var url = 'http://student.ifip.tuwien.ac.at/geoserver/wfs';
 var layer = 'feedback';
-var prefix = 'ifip_2015';
-var featureNS = 'http://ifip/2015';
+var prefix = 'g01_2015';
+var featureNS = 'http://g01/2015';
 var form = document.getElementById('feedback');
 
 var feedbackPoints = new ol.source.Vector({

@@ -1,11 +1,6 @@
 {
   "exports": [
-    "ol.Map",
-    "ol.View",
-    "ol.control.defaults",
-    "ol.layer.Tile",
-    "ol.proj.fromLonLat",
-    "ol.source.OSM"
+    "*"
   ],
   "umd": true,
   "jvm": [],

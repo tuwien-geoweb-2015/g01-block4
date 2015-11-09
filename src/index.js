@@ -8,7 +8,10 @@ var map = new ol.Map({
   target: 'map',
   layers: [
     new ol.layer.Tile({
-      source: new ol.source.OSM()
+      source: new ol.source.TileWMS({
+        url: 'http://student.ifip.tuwien.ac.at/geoserver/wms',
+        params: {LAYERS: 'ifip_2015:nyc_census_block'}
+      })
     })
   ],
   view: new ol.View({
